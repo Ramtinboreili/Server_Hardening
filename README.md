@@ -280,14 +280,6 @@ sudo nano /etc/audit/rules.d/audit.rules
 
 ---
 
-## 🔚 Conclusion
-
-By applying these best practices, you can **substantially reduce the risk** to your Nginx server and strengthen its defenses against real-world attacks. Security hardening should always be treated as an **ongoing, iterative process** that evolves with new threats.
-
-> 🧠 _Security is a journey, not a destination._
-
----
-
 # 📋 Notes
 - Always **keep your server and packages updated**.
 - Perform **periodic security audits**.
@@ -296,5 +288,8 @@ By applying these best practices, you can **substantially reduce the risk** to y
 
 ---
 
-# ✨ License
-This case study is released under the [MIT License](https://opensource.org/licenses/MIT).
+## 🔚 Conclusion
+
+By applying these best practices, you can **substantially reduce the risk** to your Nginx server and strengthen its defenses against real-world attacks. Security hardening should always be treated as an **ongoing, iterative process** that evolves with new threats.
+
+> 🧠 _Security is a journey, not a destination._
