@@ -65,6 +65,20 @@ sudo ufw enable
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+
+sudo nano /etc/fail2ban/jail.local
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 5
+bantime = 3600
+findtime = 600
+
+sudo systemctl restart fail2ban
+sudo fail2ban-client status sshd
+
 ```
 
 ---
