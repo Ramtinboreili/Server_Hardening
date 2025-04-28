@@ -46,10 +46,13 @@ sudo sysctl -p
 
 #### 🔹 UFW Firewall Configuration
 ```bash
+sudo ufw status
+sudo ufw enable
+
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 'Nginx Full'
-sudo ufw enable
+
 ```
 
 ---
