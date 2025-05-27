@@ -1,0 +1,8 @@
+all:
+  children:
+    repo-servers:
+      hosts:
+        repo-server:
+          ansible_host: 94.101.184.85
+          ansible_user: root
+          ansible_port: 8090
