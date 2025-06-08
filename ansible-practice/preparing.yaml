@@ -7,4 +7,4 @@
   # preparing server and hardening
     - { role: preparing_server, become: True, tags: preparing_server }
   # install and configure docker service
-    - { role: docker, become: True, tags: docker_setup }
+    # - { role: docker, become: True, tags: docker_setup }
